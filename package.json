@@ -1,0 +1,16 @@
+{
+  "name": "zack-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "serve-static": "serve -s out -p 8000",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
